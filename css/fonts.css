@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Museo'; /* Nom de la police */
+    src: url('C:\Users\mazsa\Documents\VSCODE\V2\font') format('woff2');
+    font-weight: normal; /* Normal, car on utilise la version régulière */
+    font-style: normal;  /* Normal (non italique) */
+}
+
+/* Utilisation de la police Museo */
+body, header, footer {
+    font-family: 'Museo', sans-serif; /* Applique la police Museo */
+}
